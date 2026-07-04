@@ -1512,6 +1512,267 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:TS-1187A-B-A-B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1187A-B-A-B"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XKB Connection(中国星坤)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TS-1187A-B-A-B"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C318884"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Tactile Switches"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TS-1187A-B-A-B_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 0.76) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.76) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.51)
+					(radius 0.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.79)
+					(radius 0.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.3) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:X322512MSB4SI"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2531,6 +2792,18 @@
 		)
 		(uuid "508dc12c-e313-42fe-985b-aa77d6a0da56")
 	)
+	(rectangle
+		(start 165.1 88.9)
+		(end 220.98 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5d222d5d-886d-412a-90b2-9e0be14071ec")
+	)
 	(text "DO NOT POOR COPPER"
 		(exclude_from_sim no)
 		(at 196.342 18.796 0)
@@ -2622,6 +2895,12 @@
 		(uuid "2107b9d4-bb39-403b-96a4-e57fbaeb3390")
 	)
 	(junction
+		(at 200.66 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2523d28f-9f8a-4af5-9667-97036d133403")
+	)
+	(junction
 		(at 133.35 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2650,6 +2929,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59be0521-a0cd-485d-8d88-a63dbaf72491")
+	)
+	(junction
+		(at 200.66 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a4af679-e18a-4d4f-ac9d-536ecef75956")
+	)
+	(junction
+		(at 185.42 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bd1af19-9708-4506-b957-1dd127625d60")
 	)
 	(junction
 		(at 182.88 27.94)
@@ -2736,6 +3027,12 @@
 		(uuid "cbc2cfa0-381b-4a08-a409-e7d6dc2472bb")
 	)
 	(junction
+		(at 185.42 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbb92937-68ad-4047-85a1-d6b3ea1a01bd")
+	)
+	(junction
 		(at 92.71 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2818,6 +3115,16 @@
 			(type default)
 		)
 		(uuid "03b673c7-87ea-453f-8611-b193bc1809bf")
+	)
+	(wire
+		(pts
+			(xy 196.85 114.3) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059692c1-d912-4537-bbc4-52b43d36987e")
 	)
 	(wire
 		(pts
@@ -3141,6 +3448,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 113.03) (xy 189.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3ae078-0b73-4320-9343-cd65ffe82eca")
+	)
+	(wire
+		(pts
 			(xy 38.1 35.56) (xy 36.83 35.56)
 		)
 		(stroke
@@ -3148,6 +3465,16 @@
 			(type default)
 		)
 		(uuid "3bf59a24-b3e1-4cdc-9c93-636e310ca259")
+	)
+	(wire
+		(pts
+			(xy 189.23 124.46) (xy 189.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3e3158-8775-4561-91e9-aa3daceafa3e")
 	)
 	(wire
 		(pts
@@ -3251,6 +3578,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 104.14) (xy 196.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575aab14-1358-4bef-866d-236e70d83f11")
+	)
+	(wire
+		(pts
 			(xy 113.03 27.94) (xy 123.19 27.94)
 		)
 		(stroke
@@ -3298,6 +3635,16 @@
 			(type default)
 		)
 		(uuid "605b21bd-ca18-4d4a-b8e6-11ae187dc0f9")
+	)
+	(wire
+		(pts
+			(xy 196.85 125.73) (xy 200.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62dd73dc-58a4-487c-8f15-5e5360a3cf8e")
 	)
 	(wire
 		(pts
@@ -3371,6 +3718,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 119.38) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa3de5c-32e7-4207-a5cd-63986bf9123a")
+	)
+	(wire
+		(pts
 			(xy 92.71 49.53) (xy 93.98 49.53)
 		)
 		(stroke
@@ -3418,6 +3775,16 @@
 			(type default)
 		)
 		(uuid "74b8c5de-07a5-45ee-837c-bb3e5d417796")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770b0a9b-2b92-4a9d-8aad-5127ba4b15f2")
 	)
 	(wire
 		(pts
@@ -3501,6 +3868,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 124.46) (xy 196.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f29448-4f6a-4b08-b7a5-0e68da9e82f3")
+	)
+	(wire
+		(pts
 			(xy 88.9 41.91) (xy 88.9 27.94)
 		)
 		(stroke
@@ -3551,6 +3928,26 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 125.73) (xy 200.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccb6a2d-74c5-434a-868c-a2b38ed73ab8")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1977e6-b76b-46b0-b373-a6db80550e23")
+	)
+	(wire
+		(pts
 			(xy 204.47 38.1) (xy 210.82 38.1)
 		)
 		(stroke
@@ -3581,6 +3978,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 105.41) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909ae765-3355-42ec-9c67-ad374b21bf36")
+	)
+	(wire
+		(pts
 			(xy 39.37 78.74) (xy 40.64 78.74)
 		)
 		(stroke
@@ -3588,6 +3995,16 @@
 			(type default)
 		)
 		(uuid "9162e3b6-ea76-496b-a3cc-a941f6d0c08b")
+	)
+	(wire
+		(pts
+			(xy 185.42 105.41) (xy 189.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93185aa3-0203-4d95-947d-a036fb1ae5e3")
 	)
 	(wire
 		(pts
@@ -3721,6 +4138,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 92.71) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b365e239-5fc1-4650-bbc3-599f86e8d49d")
+	)
+	(wire
+		(pts
 			(xy 52.07 40.64) (xy 52.07 53.34)
 		)
 		(stroke
@@ -3731,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 113.03) (xy 189.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65e9c89-b83b-4187-95e0-fdc3daaa1b74")
+	)
+	(wire
+		(pts
 			(xy 102.87 35.56) (xy 113.03 35.56)
 		)
 		(stroke
@@ -3738,6 +4175,16 @@
 			(type default)
 		)
 		(uuid "b79169db-6c1d-4813-8d3c-9c7fd8d29271")
+	)
+	(wire
+		(pts
+			(xy 196.85 105.41) (xy 200.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b858faa0-7743-45dc-81fd-0f910a6d2539")
 	)
 	(wire
 		(pts
@@ -3761,6 +4208,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 125.73) (xy 185.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc623236-3ec3-4ea0-88df-f2230be1128d")
+	)
+	(wire
+		(pts
 			(xy 210.82 27.94) (xy 210.82 29.21)
 		)
 		(stroke
@@ -3778,6 +4235,16 @@
 			(type default)
 		)
 		(uuid "be2e8c62-8c3c-4d0d-b587-a968940189fc")
+	)
+	(wire
+		(pts
+			(xy 182.88 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1e8774-2dd3-4a45-ba78-b8d6015146ef")
 	)
 	(wire
 		(pts
@@ -3808,6 +4275,16 @@
 			(type default)
 		)
 		(uuid "c2099a31-c2e8-4c4f-b0e6-8fc431b97533")
+	)
+	(wire
+		(pts
+			(xy 196.85 93.98) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7aade06-1cfb-491f-9de3-dd6c277fe01c")
 	)
 	(wire
 		(pts
@@ -3851,6 +4328,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 125.73) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b7d07b-52f0-4ffc-9d13-9c9c2023e58c")
+	)
+	(wire
+		(pts
 			(xy 105.41 73.66) (xy 104.14 73.66)
 		)
 		(stroke
@@ -3871,6 +4358,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 105.41) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b5e593-24e6-4449-8531-8df77510af76")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d713b6be-ce71-4621-b98a-1038dbbd7f50")
+	)
+	(wire
+		(pts
 			(xy 21.59 127) (xy 26.67 127)
 		)
 		(stroke
@@ -3881,6 +4388,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 92.71) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae0ea4f-2e33-4af2-b53d-9167bc09219a")
+	)
+	(wire
+		(pts
 			(xy 68.58 53.34) (xy 68.58 55.88)
 		)
 		(stroke
@@ -3888,6 +4405,16 @@
 			(type default)
 		)
 		(uuid "de9a9b05-23b5-49fb-a9d1-aac1731d496f")
+	)
+	(wire
+		(pts
+			(xy 182.88 119.38) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9b1244-7eb2-437e-b607-4aaf9ab560c1")
 	)
 	(wire
 		(pts
@@ -3991,6 +4518,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 113.03) (xy 200.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7056555-1305-4922-96ad-ac0bb7bbecff")
+	)
+	(wire
+		(pts
 			(xy 85.09 53.34) (xy 88.9 53.34)
 		)
 		(stroke
@@ -4041,6 +4578,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 92.71) (xy 200.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ef7339-c0cf-493b-9cc6-92ad84b301d2")
+	)
+	(wire
+		(pts
+			(xy 196.85 113.03) (xy 200.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73ce597-6c40-43c7-89ec-d4c5324322fd")
+	)
+	(wire
+		(pts
 			(xy 204.47 33.02) (xy 204.47 38.1)
 		)
 		(stroke
@@ -4078,6 +4635,16 @@
 			(type default)
 		)
 		(uuid "fdbb3179-538d-41da-93c1-c36f39c54d99")
+	)
+	(label "FLASH_~{CS}"
+		(at 182.88 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00fc93ee-589f-48cb-a6c7-c9f7dcf2ae07")
 	)
 	(label "GPIO24"
 		(at 105.41 134.62 0)
@@ -4168,6 +4735,16 @@
 			(justify left bottom)
 		)
 		(uuid "3204fdef-9fad-476b-b348-359de75f85aa")
+	)
+	(label "RUN"
+		(at 182.88 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32d7eaba-41b9-4cd9-b1ac-e8fb0f568486")
 	)
 	(label "GPIO0"
 		(at 105.41 73.66 0)
@@ -4893,6 +5470,126 @@
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c"
 					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1187A-B-A-B")
+		(at 191.77 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e93fa3f-8df9-4c95-bee6-b5703b2ef1ed")
+		(property "Reference" "SW201"
+			(at 189.738 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RESET"
+			(at 189.992 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 207.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 209.55 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 212.09 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 214.63 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f4c6d185-15bb-4463-98ba-c3478c3392d0")
+		)
+		(pin "4"
+			(uuid "d113e537-c893-4599-af0d-4b766f8da708")
+		)
+		(pin "2"
+			(uuid "6c90ec92-2979-4efe-a1b0-7dce3731a735")
+		)
+		(pin "1"
+			(uuid "8a157551-9cb8-4fb7-a8de-6c05b83ae640")
+		)
+		(instances
+			(project "stav-keeb-65"
+				(path "/f067c205-942c-45af-b694-038ca43c147c"
+					(reference "SW201")
 					(unit 1)
 				)
 			)
@@ -5748,6 +6445,84 @@
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c"
 					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "564badcc-8659-49dc-88fb-d75953c0bd06")
+		(property "Reference" "#PWR0251"
+			(at 207.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.168 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f7edae5-34e5-4cff-b752-bdb8a3bb6181")
+		)
+		(instances
+			(project "stav-keeb-65"
+				(path "/f067c205-942c-45af-b694-038ca43c147c"
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -7095,6 +7870,204 @@
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c"
 					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1187A-B-A-B")
+		(at 191.77 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d145d167-b3b2-466e-ab9a-fe6230ec3485")
+		(property "Reference" "SW202"
+			(at 189.738 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BOOTSEL"
+			(at 189.23 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+			(at 204.47 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 207.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 209.55 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 212.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4938ea48-03a9-4cd9-ade6-92a046702936")
+		)
+		(pin "4"
+			(uuid "9bda62e0-bda6-432e-8ddd-78704c0b1a75")
+		)
+		(pin "2"
+			(uuid "c16451a9-5e07-4ac1-a35a-7de341740413")
+		)
+		(pin "1"
+			(uuid "8d988994-3d4a-40b9-9e81-8abc339fdd23")
+		)
+		(instances
+			(project "stav-keeb-65"
+				(path "/f067c205-942c-45af-b694-038ca43c147c"
+					(reference "SW202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d638bf48-4f2e-4817-bfce-2e2f4d28e9a3")
+		(property "Reference" "#PWR0250"
+			(at 207.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.914 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cda77daa-6f63-45c7-b61c-f210aaae469a")
+		)
+		(instances
+			(project "stav-keeb-65"
+				(path "/f067c205-942c-45af-b694-038ca43c147c"
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
