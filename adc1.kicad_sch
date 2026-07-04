@@ -5,7 +5,7 @@
 	(uuid "817a8412-705d-408f-9c27-c1be0c839fde")
 	(paper "A4")
 	(title_block
-		(title "MUX 1")
+		(title "ADC 1")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -4218,7 +4218,7 @@
 			)
 		)
 	)
-	(global_label "CS1"
+	(global_label "~{CS}"
 		(shape input)
 		(at 132.08 120.65 0)
 		(fields_autoplaced yes)
@@ -4230,7 +4230,7 @@
 		)
 		(uuid "b5fb8b03-edf1-468f-b44e-ad8bdb81b2a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7542 120.65 0)
+			(at 137.5447 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4242,29 +4242,16 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(hierarchical_label "MISO"
 		(shape output)
 		(at 132.08 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b9a7f039-b2e7-4bb0-bd0c-c07e3b5163cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.6614 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "4014caba-f0f1-4dfd-adba-a28a303e2bd5")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4338,10 +4325,6 @@
 		)
 		(instances
 			(project "stav-keeb-65"
-				(path "/f067c205-942c-45af-b694-038ca43c147c"
-					(reference "#PWR02")
-					(unit 1)
-				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
 					(reference "#PWR02")
 					(unit 1)
@@ -7604,10 +7587,6 @@
 		)
 		(instances
 			(project "stav-keeb-65"
-				(path "/f067c205-942c-45af-b694-038ca43c147c"
-					(reference "U2")
-					(unit 1)
-				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
 					(reference "U2")
 					(unit 1)
@@ -8828,10 +8807,6 @@
 		)
 		(instances
 			(project "stav-keeb-65"
-				(path "/f067c205-942c-45af-b694-038ca43c147c"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
 					(reference "R1")
 					(unit 1)
@@ -11354,10 +11329,6 @@
 		)
 		(instances
 			(project "stav-keeb-65"
-				(path "/f067c205-942c-45af-b694-038ca43c147c"
-					(reference "SW1")
-					(unit 1)
-				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
 					(reference "SW1")
 					(unit 1)
@@ -12382,10 +12353,6 @@
 		)
 		(instances
 			(project "stav-keeb-65"
-				(path "/f067c205-942c-45af-b694-038ca43c147c"
-					(reference "C1")
-					(unit 1)
-				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
 					(reference "C1")
 					(unit 1)
