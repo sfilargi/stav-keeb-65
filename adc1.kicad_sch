@@ -2,8 +2,11 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "7f6bed2c-208d-41a7-90a7-3ab969456d0d")
+	(uuid "817a8412-705d-408f-9c27-c1be0c839fde")
 	(paper "A4")
+	(title_block
+		(title "MUX 1")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
