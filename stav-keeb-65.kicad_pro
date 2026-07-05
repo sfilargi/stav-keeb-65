@@ -534,7 +534,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -678,7 +678,7 @@
         "uuid": "f067c205-942c-45af-b694-038ca43c147c"
       }
     ],
-    "used_designators": "C19,C25,C45,C65,C85,C101-135,#PWR1,#PWR35-36,#PWR43,#PWR69,#PWR77,#PWR80,#PWR87,#PWR104-105,#PWR107,#PWR111,#PWR115,#PWR118,#PWR127,#PWR151-152,#PWR154,#PWR158,#PWR162,#PWR165,#PWR174,#PWR198-199,#PWR201,#PWR205,#PWR209,#PWR212,#PWR221,#PWR237-279,R101-114,SW81-82,X1,U7-10,FB1,F1,D1-2,USBC1",
+    "used_designators": "C1-135,D1-2,#PWR1-352,SW1-80,_SW1-2,FB1,F1,R1-114,U1-9,USBC1,X1,K_C1-76,K_SW1-76",
     "variants": []
   },
   "sheets": [
@@ -701,10 +701,6 @@
     [
       "102b9583-fe1e-454e-b472-c731d3a32681",
       "ADC4"
-    ],
-    [
-      "9c1d9e36-5939-4ff5-b403-a5ac193ad748",
-      "ADC5"
     ]
   ],
   "text_variables": {},
