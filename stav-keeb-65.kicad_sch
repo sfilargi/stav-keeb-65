@@ -675,24 +675,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 55.88 0)
+			(property "Reference" "U1"
+				(at 2.1433 -50.8 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "RP2040"
-				(at 0 -55.88 0)
+				(at 2.1433 -53.34 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "easyeda2kicad:LQFN-56_L7.0-W7.0-P0.4-EP"
@@ -1611,24 +1613,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 31.75 40.64 180)
-					(length 2.54)
-					(name "USB_DM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 31.75 43.18 180)
 					(length 2.54)
 					(name "USB_DP"
@@ -1819,6 +1803,26 @@
 						)
 					)
 					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RP2040_1_1"
+				(pin bidirectional line
+					(at 31.75 40.64 180)
+					(length 2.54)
+					(name "USB_DN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5132,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 254) (xy 49.53 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b0b0a4-5635-4e80-b402-054e2c9b27a0")
+	)
+	(wire
+		(pts
 			(xy 290.83 52.07) (xy 290.83 53.34)
 		)
 		(stroke
@@ -5192,6 +5206,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 254) (xy 73.66 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1080c9-8bd3-401b-9ffb-2977c5cefe6b")
+	)
+	(wire
+		(pts
 			(xy 203.2 33.02) (xy 204.47 33.02)
 		)
 		(stroke
@@ -5219,6 +5243,16 @@
 			(type default)
 		)
 		(uuid "2a85dd48-b956-4785-96ea-7207473ee002")
+	)
+	(wire
+		(pts
+			(xy 119.38 62.23) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac8ae33-bffc-402c-b445-6f0b91e07e8e")
 	)
 	(wire
 		(pts
@@ -5259,6 +5293,16 @@
 			(type default)
 		)
 		(uuid "305edf3d-7a92-4d29-ae09-9b7960ab323d")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 109.22 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3094062f-9d92-4aab-ae53-75ec6caadd2e")
 	)
 	(wire
 		(pts
@@ -5419,6 +5463,16 @@
 			(type default)
 		)
 		(uuid "3d3e3158-8775-4561-91e9-aa3daceafa3e")
+	)
+	(wire
+		(pts
+			(xy 97.79 254) (xy 97.79 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f726f39-16eb-456f-bf02-93a12b3ee0f4")
 	)
 	(wire
 		(pts
@@ -5612,6 +5666,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 67.31) (xy 111.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59358764-ea62-47ea-a660-4a13bff00fa0")
+	)
+	(wire
+		(pts
 			(xy 113.03 27.94) (xy 123.19 27.94)
 		)
 		(stroke
@@ -5679,6 +5743,16 @@
 			(type default)
 		)
 		(uuid "5d724287-21f6-426d-8ad2-7e5253bc185d")
+	)
+	(wire
+		(pts
+			(xy 104.14 63.5) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d826fff-8b41-4779-9c5a-7880871b4b76")
 	)
 	(wire
 		(pts
@@ -5769,6 +5843,16 @@
 			(type default)
 		)
 		(uuid "65f23718-4393-4d31-afc7-49ed25adb3f8")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 109.22 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670d4fe1-762a-41c5-94e2-cd7ef124b2f1")
 	)
 	(wire
 		(pts
@@ -6692,6 +6776,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 62.23) (xy 111.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30be45d-7346-47ae-87e9-0005f80cdfcc")
+	)
+	(wire
+		(pts
 			(xy 196.85 93.98) (xy 196.85 92.71)
 		)
 		(stroke
@@ -6822,6 +6916,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 254) (xy 121.92 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d549aa8d-757d-4225-8c84-b4095ccb514c")
+	)
+	(wire
+		(pts
 			(xy 189.23 105.41) (xy 189.23 104.14)
 		)
 		(stroke
@@ -6949,6 +7053,16 @@
 			(type default)
 		)
 		(uuid "dfc20f18-df22-4c37-aa4b-e958db2215a9")
+	)
+	(wire
+		(pts
+			(xy 104.14 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f2072a-e8e0-4c53-80df-2b78f6565f44")
 	)
 	(wire
 		(pts
@@ -7142,6 +7256,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 254) (xy 25.4 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc9d926-eea8-4f81-9f4d-51f4ce6f1da6")
+	)
+	(wire
+		(pts
 			(xy 313.69 97.79) (xy 316.23 97.79)
 		)
 		(stroke
@@ -7300,6 +7424,16 @@
 		)
 		(uuid "fdbb3179-538d-41da-93c1-c36f39c54d99")
 	)
+	(wire
+		(pts
+			(xy 119.38 67.31) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feddb623-a853-4a11-8719-e00428ad49e7")
+	)
 	(label "FLASH_~{CS}"
 		(at 182.88 99.06 180)
 		(effects
@@ -7360,6 +7494,16 @@
 		)
 		(uuid "1081dff8-a621-413a-8089-ab019fab0c88")
 	)
+	(label "USB_DN"
+		(at 121.92 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1960fb84-ed2b-4d60-aeed-6b35b0a7351d")
+	)
 	(label "XOUT"
 		(at 172.72 36.83 180)
 		(effects
@@ -7399,6 +7543,26 @@
 			(justify right bottom)
 		)
 		(uuid "2aa91de6-d256-46f4-992c-e4503268136d")
+	)
+	(label "GPIO2"
+		(at 73.66 254 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bc30623-6554-4336-b830-769eca5db935")
+	)
+	(label "GPIO1"
+		(at 49.53 254 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e23ae38-c964-4a7e-89bb-72ff195674ff")
 	)
 	(label "GPIO21"
 		(at 105.41 127 0)
@@ -7640,6 +7804,16 @@
 		)
 		(uuid "71450563-8d85-4b1f-b94e-fadc3a64cee5")
 	)
+	(label "GPIO3"
+		(at 97.79 254 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7210aa7c-c78e-4bcc-a18d-802d67b44c37")
+	)
 	(label "FLASH_SCLK"
 		(at 205.74 72.39 0)
 		(effects
@@ -7649,6 +7823,16 @@
 			(justify left bottom)
 		)
 		(uuid "7fbbbf80-99d2-4e67-898f-89f53a30d5b0")
+	)
+	(label "GPIO0"
+		(at 25.4 254 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "809bb9c3-a954-4c7c-b8c9-f615fdc9606c")
 	)
 	(label "GPIO27"
 		(at 238.76 116.84 180)
@@ -7699,6 +7883,16 @@
 			(justify left bottom)
 		)
 		(uuid "99d66b49-7d7c-433c-a74d-9f7cbe33743e")
+	)
+	(label "GPIO4"
+		(at 121.92 254 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e3eacbb-2510-45bb-b727-3b9156a5e645")
 	)
 	(label "VBUS"
 		(at 231.14 24.13 180)
@@ -7949,6 +8143,16 @@
 			(justify left bottom)
 		)
 		(uuid "fdc44c43-1b53-4c10-804f-938463f11cba")
+	)
+	(label "USB_DP"
+		(at 121.92 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdf0fc00-d181-4621-a30b-bf8745e1a4ad")
 	)
 	(label "GPIO19"
 		(at 105.41 121.92 0)
@@ -8786,6 +8990,96 @@
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c"
 					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 115.57 67.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c4f25ed-b4d6-4394-a9f3-813e6cc012d7")
+		(property "Reference" "R109"
+			(at 116.078 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 115.57 69.342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.316 68.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 115.57 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23345"
+			(at 115.57 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a5ede3e-554f-479e-84d0-b47c8085ee24")
+		)
+		(pin "1"
+			(uuid "1297cc8c-3751-44a6-a397-72d527fc5ea4")
+		)
+		(instances
+			(project "stav-keeb-65"
+				(path "/f067c205-942c-45af-b694-038ca43c147c"
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -13512,6 +13806,96 @@
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c"
 					(reference "#PWR0257")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 115.57 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4d845b3-c66c-4f0c-bd7d-11df53a8edd3")
+		(property "Reference" "R108"
+			(at 115.824 58.166 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 115.57 59.944 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.316 63.246 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 115.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23345"
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "93fa42a4-c299-4deb-96b7-1424f5167e85")
+		)
+		(pin "1"
+			(uuid "0cc78480-169c-44b3-8f3e-79ed69e8fa93")
+		)
+		(instances
+			(project "stav-keeb-65"
+				(path "/f067c205-942c-45af-b694-038ca43c147c"
+					(reference "R108")
 					(unit 1)
 				)
 			)
