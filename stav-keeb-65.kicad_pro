@@ -446,7 +446,7 @@
         "uuid": "f067c205-942c-45af-b694-038ca43c147c"
       }
     ],
-    "used_designators": "C101-124,#PWR1,#PWR237-266,R101-109,SW81-82,X1,U7-9,FB1,F1,D1-2,USBC1",
+    "used_designators": "C19,C25,C45,C65,C85,C101-134,#PWR1,#PWR237-276,R101-112,SW81-82,X1,U7-10,FB1,F1,D1-2,USBC1",
     "variants": []
   },
   "sheets": [
