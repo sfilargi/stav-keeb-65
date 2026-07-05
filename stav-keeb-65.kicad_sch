@@ -11870,7 +11870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 247.65 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -17437,7 +17437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 274.32 20.828 90)
 			(hide yes)
 			(show_name no)
