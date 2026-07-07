@@ -4194,7 +4194,7 @@
 		)
 		(uuid "fcabf659-022c-4beb-a35d-8c27afd98228")
 	)
-	(global_label "MOSI"
+	(global_label "ADC_MOSI"
 		(shape input)
 		(at 134.62 129.54 0)
 		(fields_autoplaced yes)
@@ -4206,7 +4206,7 @@
 		)
 		(uuid "0f59c4df-8826-4482-b00e-10beeef1c394")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2014 129.54 0)
+			(at 146.7976 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4218,7 +4218,31 @@
 			)
 		)
 	)
-	(global_label "SCLK"
+	(global_label "ADC_MISO"
+		(shape input)
+		(at 134.62 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63d20345-1649-485a-aa45-e5fde5747ad3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.7976 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ADC_SCK"
 		(shape input)
 		(at 134.62 132.08 0)
 		(fields_autoplaced yes)
@@ -4230,31 +4254,7 @@
 		)
 		(uuid "ac947a97-5267-4f06-8173-67dc37730523")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.3828 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "~{CS}"
-		(shape input)
-		(at 134.62 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5fb8b03-edf1-468f-b44e-ad8bdb81b2a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.0847 134.62 0)
+			(at 145.9509 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,16 +4290,16 @@
 			)
 		)
 	)
-	(hierarchical_label "MISO"
-		(shape output)
-		(at 134.62 127 0)
+	(hierarchical_label "~{CS}"
+		(shape input)
+		(at 134.62 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4014caba-f0f1-4dfd-adba-a28a303e2bd5")
+		(uuid "e57243b5-7a7a-408b-9abd-900d1724ec9d")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4387,7 +4387,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "C49")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -4395,11 +4395,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "C43")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "C37")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -4500,7 +4500,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C56")
+					(reference "K_C59")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -4508,11 +4508,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C41")
+					(reference "K_C43")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C26")
+					(reference "K_C27")
 					(unit 1)
 				)
 			)
@@ -4613,7 +4613,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C47")
+					(reference "K_C50")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -4621,11 +4621,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C32")
+					(reference "K_C34")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C17")
+					(reference "K_C18")
 					(unit 1)
 				)
 			)
@@ -5088,7 +5088,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C53")
+					(reference "K_C56")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -5096,11 +5096,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C38")
+					(reference "K_C40")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C23")
+					(reference "K_C24")
 					(unit 1)
 				)
 			)
@@ -5281,7 +5281,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "C50")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -5289,11 +5289,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "C44")
+					(reference "C42")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "C38")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -5385,7 +5385,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "C53")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -5393,11 +5393,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "C47")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "C41")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5678,7 +5678,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C48")
+					(reference "K_C51")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -5686,11 +5686,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C33")
+					(reference "K_C35")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C18")
+					(reference "K_C19")
 					(unit 1)
 				)
 			)
@@ -5972,7 +5972,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C57")
+					(reference "K_C60")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -5980,11 +5980,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C42")
+					(reference "K_C44")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C27")
+					(reference "K_C28")
 					(unit 1)
 				)
 			)
@@ -6191,7 +6191,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW60")
+					(reference "K_SW63")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -6199,11 +6199,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW45")
+					(reference "K_SW47")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW30")
+					(reference "K_SW31")
 					(unit 1)
 				)
 			)
@@ -7043,7 +7043,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW51")
+					(reference "K_SW54")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -7051,11 +7051,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW36")
+					(reference "K_SW38")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW21")
+					(reference "K_SW22")
 					(unit 1)
 				)
 			)
@@ -7262,7 +7262,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW49")
+					(reference "K_SW52")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -7270,11 +7270,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW34")
+					(reference "K_SW36")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW19")
+					(reference "K_SW20")
 					(unit 1)
 				)
 			)
@@ -7465,7 +7465,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C54")
+					(reference "K_C57")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -7473,11 +7473,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C39")
+					(reference "K_C41")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C24")
+					(reference "K_C25")
 					(unit 1)
 				)
 			)
@@ -8199,7 +8199,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW57")
+					(reference "K_SW60")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -8207,11 +8207,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW42")
+					(reference "K_SW44")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW27")
+					(reference "K_SW28")
 					(unit 1)
 				)
 			)
@@ -8328,7 +8328,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW47")
+					(reference "K_SW50")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -8336,11 +8336,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW32")
+					(reference "K_SW34")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW17")
+					(reference "K_SW18")
 					(unit 1)
 				)
 			)
@@ -8457,7 +8457,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW59")
+					(reference "K_SW62")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -8465,11 +8465,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW44")
+					(reference "K_SW46")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW29")
+					(reference "K_SW30")
 					(unit 1)
 				)
 			)
@@ -8751,7 +8751,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C59")
+					(reference "K_C62")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -8759,11 +8759,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C44")
+					(reference "K_C46")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C29")
+					(reference "K_C30")
 					(unit 1)
 				)
 			)
@@ -8945,7 +8945,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "C52")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -8953,11 +8953,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "C46")
+					(reference "C44")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "C40")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -9074,7 +9074,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW52")
+					(reference "K_SW55")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -9082,11 +9082,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW37")
+					(reference "K_SW39")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW22")
+					(reference "K_SW23")
 					(unit 1)
 				)
 			)
@@ -9293,7 +9293,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW55")
+					(reference "K_SW58")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -9301,11 +9301,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW40")
+					(reference "K_SW42")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW25")
+					(reference "K_SW26")
 					(unit 1)
 				)
 			)
@@ -9795,7 +9795,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW50")
+					(reference "K_SW53")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -9803,11 +9803,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW35")
+					(reference "K_SW37")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW20")
+					(reference "K_SW21")
 					(unit 1)
 				)
 			)
@@ -10116,7 +10116,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW54")
+					(reference "K_SW57")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -10124,11 +10124,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW39")
+					(reference "K_SW41")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW24")
+					(reference "K_SW25")
 					(unit 1)
 				)
 			)
@@ -10245,7 +10245,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW58")
+					(reference "K_SW61")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -10253,11 +10253,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW43")
+					(reference "K_SW45")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW28")
+					(reference "K_SW29")
 					(unit 1)
 				)
 			)
@@ -10349,7 +10349,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "C51")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -10357,11 +10357,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "C45")
+					(reference "C43")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "C39")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -10478,7 +10478,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW48")
+					(reference "K_SW51")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -10486,11 +10486,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW33")
+					(reference "K_SW35")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW18")
+					(reference "K_SW19")
 					(unit 1)
 				)
 			)
@@ -10952,7 +10952,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C55")
+					(reference "K_C58")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -10960,11 +10960,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C40")
+					(reference "K_C42")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C25")
+					(reference "K_C26")
 					(unit 1)
 				)
 			)
@@ -11065,7 +11065,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C51")
+					(reference "K_C54")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -11073,11 +11073,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C36")
+					(reference "K_C38")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C21")
+					(reference "K_C22")
 					(unit 1)
 				)
 			)
@@ -11178,7 +11178,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C58")
+					(reference "K_C61")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -11186,11 +11186,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C43")
+					(reference "K_C45")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C28")
+					(reference "K_C29")
 					(unit 1)
 				)
 			)
@@ -11590,7 +11590,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW53")
+					(reference "K_SW56")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -11598,11 +11598,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW38")
+					(reference "K_SW40")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW23")
+					(reference "K_SW24")
 					(unit 1)
 				)
 			)
@@ -11719,7 +11719,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW61")
+					(reference "K_SW64")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -11727,11 +11727,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW46")
+					(reference "K_SW48")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW31")
+					(reference "K_SW32")
 					(unit 1)
 				)
 			)
@@ -12300,7 +12300,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "SW3")
+					(reference "K_SW49")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -12308,11 +12308,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "SW2")
+					(reference "K_SW33")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "SW1")
+					(reference "K_SW17")
 					(unit 1)
 				)
 			)
@@ -12776,7 +12776,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C60")
+					(reference "K_C63")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -12784,11 +12784,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C45")
+					(reference "K_C47")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C30")
+					(reference "K_C31")
 					(unit 1)
 				)
 			)
@@ -13069,7 +13069,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "C48")
+					(reference "K_C49")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -13077,11 +13077,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "C42")
+					(reference "K_C33")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "C36")
+					(reference "K_C17")
 					(unit 1)
 				)
 			)
@@ -14087,7 +14087,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C50")
+					(reference "K_C53")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -14095,11 +14095,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C35")
+					(reference "K_C37")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C20")
+					(reference "K_C21")
 					(unit 1)
 				)
 			)
@@ -14200,7 +14200,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C52")
+					(reference "K_C55")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -14208,11 +14208,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C37")
+					(reference "K_C39")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C22")
+					(reference "K_C23")
 					(unit 1)
 				)
 			)
@@ -14313,7 +14313,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C61")
+					(reference "K_C64")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -14321,11 +14321,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C46")
+					(reference "K_C48")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C31")
+					(reference "K_C32")
 					(unit 1)
 				)
 			)
@@ -14426,7 +14426,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_C49")
+					(reference "K_C52")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -14434,11 +14434,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_C34")
+					(reference "K_C36")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_C19")
+					(reference "K_C20")
 					(unit 1)
 				)
 			)
@@ -14646,7 +14646,7 @@
 		(instances
 			(project "stav-keeb-65"
 				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
-					(reference "K_SW56")
+					(reference "K_SW59")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
@@ -14654,11 +14654,11 @@
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
-					(reference "K_SW41")
+					(reference "K_SW43")
 					(unit 1)
 				)
 				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
-					(reference "K_SW26")
+					(reference "K_SW27")
 					(unit 1)
 				)
 			)
