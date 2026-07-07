@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A3")
+	(title_block
+		(rev "v0")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -376,7 +379,7 @@
 			(uuid "0c5f0196-7382-4e8c-9b89-5d74d09a9684")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -796,7 +799,7 @@
 			(uuid "30b11b72-11e4-4c2a-9239-5f98e67e9aac")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1165,7 +1168,7 @@
 			(uuid "35c91077-93f7-4f4a-9411-abc346539666")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1427,7 +1430,7 @@
 			(uuid "df390a49-5f41-45e3-a640-9e727faf23cd")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1689,7 +1692,7 @@
 			(uuid "f09b0665-bc37-43d9-a112-d48b26231591")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1951,7 +1954,7 @@
 			(uuid "a73d50e3-f326-4a6e-a9f8-7d296309bd0d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2213,7 +2216,7 @@
 			(uuid "86f97080-2e7a-40bc-9150-1ff59ab2e58b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2475,7 +2478,7 @@
 			(uuid "9de8e931-da92-43af-82ea-e7ad42493063")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2737,7 +2740,7 @@
 			(uuid "4b14a78c-795a-49d5-9458-14777fa95d4b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2999,7 +3002,7 @@
 			(uuid "d5fbade3-ccd0-4ad7-952d-9e2307252c59")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3261,7 +3264,7 @@
 			(uuid "d056b96b-2269-4604-bcb3-610adc850d06")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3523,7 +3526,7 @@
 			(uuid "06c98e74-2fd7-4cf7-bc7d-caf9fbb956f2")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3785,7 +3788,7 @@
 			(uuid "65f65e7b-6a56-4f60-af0a-45027d9ff556")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4047,7 +4050,7 @@
 			(uuid "02106be6-1d29-4d09-9438-0681991be375")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4309,7 +4312,7 @@
 			(uuid "68cf5278-06c0-4492-b4ff-24ea4cd4ee41")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4571,7 +4574,7 @@
 			(uuid "b6165dbb-0849-490e-9b69-acddb87cc1c7")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4833,7 +4836,7 @@
 			(uuid "cbbb2661-6af1-4a32-9e5f-1ccf8b444eab")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5095,7 +5098,7 @@
 			(uuid "b1ab2367-d33d-4821-8692-fb7b5b4b2c78")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5357,7 +5360,7 @@
 			(uuid "03979aa1-075e-4934-845f-ef58778c540f")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5619,7 +5622,7 @@
 			(uuid "f3a7c8ad-2f23-4ff6-8a69-c13605f942f6")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5987,7 +5990,7 @@
 			(uuid "bd42c7b4-7049-4331-902f-131e0097fe7e")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6249,7 +6252,7 @@
 			(uuid "da39453b-5000-4084-a38e-ff3e6fc76712")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6511,7 +6514,7 @@
 			(uuid "d6d5a97b-503d-4e02-989c-f42e28e0c0bb")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6773,7 +6776,7 @@
 			(uuid "b9623610-96fe-40e8-8693-5d0158f8d44a")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7035,7 +7038,7 @@
 			(uuid "0bd22444-8c10-4919-b71c-049a2625a4c4")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7297,7 +7300,7 @@
 			(uuid "cb758769-620b-4602-bec8-8826138a6e6d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7666,7 +7669,7 @@
 			(uuid "308bb2b3-1fce-4283-92f7-e5c4272402e6")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8035,7 +8038,7 @@
 			(uuid "1befc26e-06c9-4cbb-9552-836cbc7cb762")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8297,7 +8300,7 @@
 			(uuid "54fe4a7a-53d2-4fbf-a112-9c3334980765")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8559,7 +8562,7 @@
 			(uuid "26f1d35d-cdad-4337-8905-62d044f43299")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8821,7 +8824,7 @@
 			(uuid "93785483-c559-4d93-a85e-042b797f2a73")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9083,7 +9086,7 @@
 			(uuid "78a433e7-da83-466a-9cdf-16fe45039b4a")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9345,7 +9348,7 @@
 			(uuid "887e357b-f826-4545-b343-974ddc2cf225")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9607,7 +9610,7 @@
 			(uuid "213a8611-d45c-44e6-bf7a-33877e3e0cc1")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9869,7 +9872,7 @@
 			(uuid "aa70f3b4-ec99-4aa0-9ec0-2ed43a791b4c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10289,7 +10292,7 @@
 			(uuid "9c7fcc12-0ea6-4f5b-a716-4637e1407af0")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10710,7 +10713,7 @@
 			(uuid "1198c640-ea74-48a4-8d85-fbbfebd6b7f5")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11079,7 +11082,7 @@
 			(uuid "cd162370-4770-4735-817e-e9f14466dfa2")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11341,7 +11344,7 @@
 			(uuid "863baf21-f100-408a-a511-1fdc57121b29")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11710,7 +11713,7 @@
 			(uuid "e5396202-917e-4ee0-b609-6df7a4d81c92")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11972,7 +11975,7 @@
 			(uuid "532dcfcf-85a7-47b4-ab21-1fbd84504eba")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12234,7 +12237,7 @@
 			(uuid "4ced3f5e-5928-4750-bfcc-7bbfc8480ddd")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12496,7 +12499,7 @@
 			(uuid "5d10543a-b348-4934-8b1e-ea7236eb34a1")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12758,7 +12761,7 @@
 			(uuid "6d5f4d55-b2a1-4f6c-a29a-db1ce766cf45")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13020,7 +13023,7 @@
 			(uuid "44fe8c14-e905-49b3-bf89-fa6435c8df90")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13282,7 +13285,7 @@
 			(uuid "01c70822-fb92-433c-87bc-0057cef904a5")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13544,7 +13547,7 @@
 			(uuid "359039af-df79-4979-807d-6d04b9412b52")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13806,7 +13809,7 @@
 			(uuid "7c43e613-e992-48d3-80d9-a389f6deeb74")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14068,7 +14071,7 @@
 			(uuid "3573896f-d35a-4628-bf37-1dd7f417797c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14330,7 +14333,7 @@
 			(uuid "db35d563-1081-41d3-8e52-08f355f12384")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14592,7 +14595,7 @@
 			(uuid "ae0529ca-6fc1-4239-9a18-b01620da4c69")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14854,7 +14857,7 @@
 			(uuid "1b42b968-8ad9-457c-bf6f-82a4ceda9cbf")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15116,7 +15119,7 @@
 			(uuid "29c812da-df42-4cd7-bcc0-b1aab2ad1edf")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15378,7 +15381,7 @@
 			(uuid "4851e8b2-3cae-413d-a01d-b058d910133d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15640,7 +15643,7 @@
 			(uuid "5a471317-97e8-49fe-b28d-d61523a4c22d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15902,7 +15905,7 @@
 			(uuid "584f8f04-4ca8-4f55-b8b1-ed871c8feae7")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16164,7 +16167,7 @@
 			(uuid "ae78bcda-675f-40a3-8c02-6964f0a6369f")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16426,7 +16429,7 @@
 			(uuid "ed375fdc-1ab0-47ea-b38b-5573b3fc1c83")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16795,7 +16798,7 @@
 			(uuid "d03adcef-a9a6-4a60-85da-248857152218")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17057,7 +17060,7 @@
 			(uuid "f115a061-fad8-4df6-886b-0d90f994b741")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17319,7 +17322,7 @@
 			(uuid "4046e162-7a0f-4dc9-ada6-ef8a6d05b156")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17581,7 +17584,7 @@
 			(uuid "80b51f68-fad1-4674-bcac-67a8832104bd")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17843,7 +17846,7 @@
 			(uuid "f56713c8-f3b4-4765-ae6d-d31ba446090c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18285,7 +18288,7 @@
 			(uuid "5f1f67c9-7a26-4a97-a440-c15da4537464")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21856,7 +21859,7 @@
 			(uuid "ddff340f-f636-4f80-ba91-00789704f59d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/LQFN-56_L7.0-W7.0-P0.4-EP.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/LQFN-56_L7.0-W7.0-P0.4-EP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22820,7 +22823,7 @@
 			(uuid "9dee4b8a-921a-4af2-a8a2-86d626782178")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CRYSTAL-SMD_4P-L3.2-W2.5-BL.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/CRYSTAL-SMD_4P-L3.2-W2.5-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24777,7 +24780,7 @@
 			(uuid "fb9dac5d-d968-4a8d-b9af-6ecb698c80fb")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29575,7 +29578,7 @@
 			(uuid "4776ac2f-8752-4396-a36c-829082683a9c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32948,7 +32951,7 @@
 			(uuid "6fa06f53-4706-40b5-81ad-f006648c0a97")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33216,7 +33219,7 @@
 			(uuid "1fdedfc8-9530-455b-add9-40571f63999e")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOD-123FL_L2.8-W1.8-LS3.7-RD-1.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOD-123FL_L2.8-W1.8-LS3.7-RD-1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34032,7 +34035,7 @@
 			(uuid "80470e3d-a2bb-4c6d-bd38-fc738085ae5b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35405,7 +35408,7 @@
 			(uuid "3f3e0450-bd1a-4b4c-be23-03344c742ee9")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37413,7 +37416,7 @@
 			(uuid "fe565b84-c313-427d-9a2a-433c427d6c7e")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37421,7 +37424,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -43337,7 +43340,7 @@
 			(uuid "6e847ae6-8c2e-4813-bd74-7790691e4ade")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44532,7 +44535,7 @@
 			(uuid "d234e4ba-7a70-4ec4-afc6-7f998f387a06")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOIC-8_L5.3-W5.3-H1.9-LS7.9-P1.27.wrl"
+		(model "C:/Users/stavros/Documents/KiCAD/easyeda2kicad/easyeda2kicad.3dshapes/SOIC-8_L5.3-W5.3-H1.9-LS7.9-P1.27.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48004,6 +48007,19 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "ee3542e5-7295-4017-9ff1-e84ad9c6ffb6")
+	)
+	(gr_text "stav-keeb-60 v0"
+		(at 42.5 30 0)
+		(layer "F.Cu")
+		(uuid "4b41fb45-bdbf-45e9-b0b6-f2ba5ceeecec")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 194.6 96.5)
