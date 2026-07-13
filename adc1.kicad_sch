@@ -2046,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 127) (xy 134.62 127)
+			(xy 132.08 127) (xy 146.05 127)
 		)
 		(stroke
 			(width 0)
@@ -2543,6 +2543,16 @@
 			(type default)
 		)
 		(uuid "521e8985-1790-4556-b39f-d42de4482a40")
+	)
+	(wire
+		(pts
+			(xy 153.67 127) (xy 156.21 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5301fa6d-637e-4502-836b-02c35f2aa438")
 	)
 	(wire
 		(pts
@@ -4194,78 +4204,6 @@
 		)
 		(uuid "fcabf659-022c-4beb-a35d-8c27afd98228")
 	)
-	(global_label "ADC_MOSI"
-		(shape input)
-		(at 134.62 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f59c4df-8826-4482-b00e-10beeef1c394")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.7976 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ADC_MISO"
-		(shape input)
-		(at 134.62 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63d20345-1649-485a-aa45-e5fde5747ad3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.7976 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ADC_SCK"
-		(shape input)
-		(at 134.62 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac947a97-5267-4f06-8173-67dc37730523")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.9509 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "+2V5_REF"
 		(shape input)
 		(at 76.2 124.46 180)
@@ -4290,8 +4228,19 @@
 			)
 		)
 	)
-	(hierarchical_label "~{CS}"
-		(shape input)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 156.21 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "035d24bf-1435-4624-9222-1b72a266a6a0")
+	)
+	(hierarchical_label "CS_N"
+		(shape output)
 		(at 134.62 134.62 0)
 		(effects
 			(font
@@ -4299,7 +4248,29 @@
 			)
 			(justify left)
 		)
-		(uuid "e57243b5-7a7a-408b-9abd-900d1724ec9d")
+		(uuid "868ad5db-c3d0-40fa-bcca-c1de5550cf0b")
+	)
+	(hierarchical_label "MOSI"
+		(shape output)
+		(at 134.62 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e0f17e8-10c2-4994-8ba2-f9739fdbcb3b")
+	)
+	(hierarchical_label "SCLK"
+		(shape output)
+		(at 134.62 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af7e6176-a363-4e24-8463-59e147a780d0")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7514,7 +7485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 134.874 111.506 90)
 			(hide yes)
 			(show_name no)
@@ -9584,6 +9555,108 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 149.86 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6358b97a-541c-465d-9acd-332501b40bf1")
+		(property "Reference" "R34"
+			(at 145.542 125.984 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 125.984 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 150.114 125.984 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23140"
+			(at 149.86 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "436e524d-2ffe-49e9-a92c-1636e90b7ff5")
+		)
+		(pin "1"
+			(uuid "fd85e926-f082-4ac0-b095-f6ce387fe142")
+		)
+		(instances
+			(project "stav-keeb-65"
+				(path "/f067c205-942c-45af-b694-038ca43c147c/102b9583-fe1e-454e-b472-c731d3a32681"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/f067c205-942c-45af-b694-038ca43c147c/7ed9120e-f11c-4b22-935f-1ee89d31afd6"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/f067c205-942c-45af-b694-038ca43c147c/a1b97858-44bd-4201-b050-5e153f225d6a"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/f067c205-942c-45af-b694-038ca43c147c/c1663012-812f-4121-9717-99888f6b08f2"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 105.41 111.76 180)
 		(unit 1)
 		(body_style 1)
@@ -9613,7 +9686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.394 111.506 90)
 			(hide yes)
 			(show_name no)
@@ -9844,7 +9917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 141.224 111.506 90)
 			(hide yes)
 			(show_name no)
@@ -11318,7 +11391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.044 111.506 90)
 			(hide yes)
 			(show_name no)
