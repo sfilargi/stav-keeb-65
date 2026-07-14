@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.2,
           "pad_connection": 2,
@@ -173,10 +173,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -554,10 +554,21 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1,
-        "name": "SPI",
+        "clearance": 0.4,
+        "name": "ADC Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.4,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": ""
@@ -568,8 +579,8 @@
         "diff_pair_width": 0.25,
         "microvia_drill": 0.1,
         "name": "USB-Data",
-        "pcb_color": "rgb(0, 255, 0)",
-        "priority": 2,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -584,7 +595,7 @@
         "microvia_drill": 0.1,
         "name": "USB-Data-Thin",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -617,6 +628,10 @@
       {
         "netclass": "SPI",
         "pattern": ".*CS_N.*"
+      },
+      {
+        "netclass": "ADC Signal",
+        "pattern": ".*ADC.*CH.*"
       }
     ]
   },
@@ -741,7 +756,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
