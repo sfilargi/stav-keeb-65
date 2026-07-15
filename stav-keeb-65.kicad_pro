@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
-          "min_island_area": 10.0,
+          "min_clearance": 0.1,
+          "min_island_area": 0.0013161349,
           "min_thickness": 0.2,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.0,
-          "thermal_relief_spoke_width": 0.2
+          "thermal_relief_gap": 0.1,
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -91,7 +91,24 @@
           "width": 0.2
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "missing_footprint|0|0|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|247120000|84057500|182b9316-a793-453e-aa62-0fb50a66d9d0|d9226f82-5e9a-4ea9-83f2-c0be28b0367d|B.Cu",
+          "It has an actual trace going out"
+        ],
+        [
+          "starved_thermal|247300000|45400000|182b9316-a793-453e-aa62-0fb50a66d9d0|4be3a697-fcd5-4a44-996c-e5b55b77a77e|B.Cu",
+          "It has an actual trace going out"
+        ],
+        [
+          "starved_thermal|251800000|45400000|182b9316-a793-453e-aa62-0fb50a66d9d0|638d37aa-5712-4c8e-807c-2736b086d56a|B.Cu",
+          "It has an actual trace going out"
+        ]
+      ],
       "meta": {
         "version": 2
       },
